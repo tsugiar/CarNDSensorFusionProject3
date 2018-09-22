@@ -85,7 +85,7 @@ public:
 	/**
 	* AssociateObsLandmark will associate observation from particle with particular landmark detection
 	**/
-	void ParticleFilter::AssociateObsLandmark(Particle &particle, const Map &map_landmark, double std_lmark[]);
+	void AssociateObsLandmark(Particle &particle, const Map &map_landmark, double std_lmark[]);
 
 
 	/**
